@@ -43,20 +43,19 @@ void main()
 */
 //----------------------------------------------------------------//
 
+ // Big Integer Implementation:
     char n1[100];
     char n2[100];
 
-    printf("Enter first number:\n");
+    printf("Enter first large number:\n");
     scanf("%s", n1);
-    printf("%s ", n1);
 
-    printf("\nEnter second number:\n");
+    printf("Enter second large number:\n");
     scanf("%s", n2);
-    printf("%s ", n2);
 
-    char rs[];
+    char* rs;
     rs = largesum(n1, n2);
-
+    printf("%s",rs);
 
     getch();
 }

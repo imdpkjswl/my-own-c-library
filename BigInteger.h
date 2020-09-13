@@ -47,7 +47,6 @@ char* largesum(char n1[], char n2[])
 
 
     char* result = malloc(102);  // char array to store result
-    printf("\nSum of %s and %s =  ",strrev(n1),strrev(n2));
     for(j=0; j < i; j++){
         *(result+j) = r[i-j-1] + 48; // convert int array to char array
     }

@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 #include"stack.h"
 #include"BigInteger.h"
 
@@ -52,10 +51,11 @@ void main()
 
     printf("Enter second large number:\n");
     scanf("%s", n2);
+    printf("\nAddition of %s and %s:\n",n1,n2);
 
     char* rs;
     rs = largesum(n1, n2);
-    printf("%s",rs);
+    printf("--> %s",rs); // print result
 
     getch();
 }
